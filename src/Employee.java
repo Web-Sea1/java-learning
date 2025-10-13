@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Employee {
     String name;
     double salary;
@@ -31,7 +32,18 @@ class Employee {
         }
 
 public static void main(String[] args) {
-    Manager mgr = new Manager("Srinu",60000,"IT",6000);
+            Scanner scanner=new Scanner(System.in);
+            System.out.println("Enter Employee name: ");
+            String name=scanner.nextLine();
+            System.out.println("Enter Employee salary: ");
+            double salary=scanner.nextDouble();
+    scanner.nextLine();
+            System.out.println("Enter Employee department: ");
+            String department=scanner.nextLine();
+            System.out.println("Enter Employee bonus: ");
+            double bonus=scanner.nextDouble();
+    Manager mgr = new Manager(name, salary,department, bonus);
     mgr.showDetails();
+
 }
 }
