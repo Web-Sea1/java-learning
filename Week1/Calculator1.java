@@ -1,4 +1,4 @@
-
+//Compile-Time Polymorphism(Overloading)
 import java.util.Scanner;
 class Calculator1 {
     static class Calculator{
