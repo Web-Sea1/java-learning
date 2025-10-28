@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Hospital Management System.iml" filepath="$PROJECT_DIR$/Hospital Management System.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/First.iml" filepath="$PROJECT_DIR$/First.iml" />
+>>>>>>> 3b806bbb3a0b6a221ef7d011de4f74831b160391
     </modules>
   </component>
 </project>
